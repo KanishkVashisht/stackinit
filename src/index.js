@@ -5,6 +5,7 @@ import { Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 
 const history = createBrowserHistory();

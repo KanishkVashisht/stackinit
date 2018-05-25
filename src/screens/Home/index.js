@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
-import {Grid, List, Image, Card} from 'semantic-ui-react';
-import {technologies} from '../../utilities/technologies.js';
+import {Grid, List, Image, Card,Button} from 'semantic-ui-react';
+import technologies from '../../utilities/technologies.js';
 
 export default class Home extends React.Component {
 
@@ -15,6 +15,10 @@ export default class Home extends React.Component {
       <div id="logo-holder">
         <div className="content">
               <img id="logo" src={require('../../assets/logo/stackInitLogo.png')}/>
+              <div id="links">
+                  <a>How it works</a>
+                  <a>Guides</a>
+              </div>
         </div>
       </div>
       <Grid>
@@ -73,6 +77,11 @@ export default class Home extends React.Component {
                     {item.description}
                   </Card.Description>
               </Card.Content>
+              <Card.Content extra>
+               <div className='ui buttons'>
+                 <Button basic color='green'>Learn {item.name} now</Button>
+               </div>
+             </Card.Content>
             </Card>
           )
         })
