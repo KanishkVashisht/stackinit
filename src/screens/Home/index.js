@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
-import {Grid, List, Image} from 'semantic-ui-react';
-
+import {Grid, List, Image, Card} from 'semantic-ui-react';
+import {technologies} from '../../utilities/technologies.js';
 
 export default class Home extends React.Component {
 
@@ -55,6 +55,30 @@ export default class Home extends React.Component {
               </ul>
       </Grid.Row>
       </Grid>
+
+      <Card.Group className="content lessons">
+      {
+        technologies.map((item,index)=>{
+          return(
+            <Card className="lesson" data-item={index}>
+              <Card.Content>
+                  <Image floated='right' size='mini' src={item.image} />
+                  <Card.Header>
+                    {item.name}
+                  </Card.Header>
+                  <Card.Meta>
+                    {item.mentor} - ${item.price} for {item.time}
+                  </Card.Meta>
+                  <Card.Description>
+                    {item.description}
+                  </Card.Description>
+              </Card.Content>
+            </Card>
+          )
+        })
+      }
+      </Card.Group>
+
     </div>
     )
   }
