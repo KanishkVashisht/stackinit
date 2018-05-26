@@ -43,9 +43,13 @@
 }
 
 
-.footer > .grid {
+.footer > div {
   flex-direction: column !important;
   align-items: center !important;
+}
+
+.expand .ui.column.grid>[class*="four wide"].column, .ui.grid>.column.row>[class*="four wide"].column, .ui.grid>.row>[class*="four wide"].column, .ui.grid>[class*="four wide"].column{
+  width:100%!important;
 }
 
 }
@@ -69,11 +73,14 @@
 }
 
 
-.footer > .grid {
+.footer > div {
   flex-direction: column !important;
   align-items: center !important;
 }
 
+.expand{
+  width:100%!important;
+}
 
 }
 
