@@ -42,6 +42,12 @@
   justify-content: flex-start;
 }
 
+
+.footer > .grid {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -60,6 +66,12 @@
   .lateral-three-row li {
     width: 45% !important;
     padding: 4% !important;
+}
+
+
+.footer > .grid {
+  flex-direction: column !important;
+  align-items: center !important;
 }
 
 
