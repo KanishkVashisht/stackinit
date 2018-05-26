@@ -65,6 +65,19 @@
 
 }
 
+
+.footer{
+  padding: 55px;
+border-top: 1px solid #dae1e9;
+background-color: #dae1e922;
+}
+
+div#pedagogy>p {
+    color: #222;
+    font-weight: 300;
+    padding: 0px 10px;
+}
+
 *{
   font-family:'Roboto',sans-serif;
 }

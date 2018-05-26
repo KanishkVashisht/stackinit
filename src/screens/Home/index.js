@@ -60,6 +60,20 @@ export default class Home extends React.Component {
         technologies={technologies}
         ref={guides=>(this.guides=guides)}
       />
+      <div className="footer">
+          <Grid columns={3}>
+            <Grid.Column width={4}>
+                  <img id="logo" src={require('../../assets/logo/stackInitLogo.png')}/>
+            </Grid.Column>
+            <Grid.Column width={8} id="pedagogy">
+                  <p>Learning a new technology is genuinely tough. There's too many guides and samples online that basically run you through a hello world example but then the actual code is way more complicated or dive into a very narrow part of the field. StackInit was started to destroy that mentality. We want you to be able to talk to an industry expert in any technology and get a good broad overview of what that technology means and does. The pricing is just to make it worth the experts time. We're very interested in helping people code and build interesting things.</p>
+            </Grid.Column>
+            <Grid.Column width={4} id="contact">
+                  <h1>Contact Us</h1>
+                  <p>Email : team@stackinit.co</p>
+            </Grid.Column>
+          </Grid>
+      </div>
     </div>
     )
   }
