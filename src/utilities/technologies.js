@@ -10,6 +10,15 @@ const technologies = [
     'contact': 'kv2295@columbia.edu'
   },
   {
+    'name': 'Responsive Web Design',
+    'description': `Today, most of the web is browsed using smartphones, yet most of these websites aren't optimized for these devices. Learn how to make your website adapt to different screen sizes and provide a consistent experience across all devices.`,
+    'price': '4',
+    'time': '5-10 minutes',
+    'image': require('../assets/techlogos/responsivewebdesign.png'),
+    'mentor':'Kanishk Vashisht',
+    'contact': 'kv2295@columbia.edu'
+  },
+  {
     'name': 'Javascript',
     'description': 'Most websites you have visited are powered by Javascript. It is one of the three core technologies that powers the World Wide Web along with HTML and CSS.',
     'price': '4',
@@ -20,7 +29,7 @@ const technologies = [
   },
   {
     'name': 'Async/Await',
-    'description': 'Learn how to simplify the behavior or using promises synchronously.',
+    'description': 'Learn how to simplify the behavior of using promises synchronously in JavaScript.',
     'price': '4',
     'time': '5-10 minutes',
     'image': require('../assets/techlogos/asyncawait.jpeg'),
@@ -29,7 +38,7 @@ const technologies = [
   },
   {
     'name':'React.js',
-    'description': 'Learn about this powerful javascript framework that big names such as Facebook, Netflix and AirBnB use to build their user interfaces.',
+    'description': 'Learn about this powerful JavaScript framework that big names such as Facebook, Netflix and AirBnB use to build their user interfaces.',
     'image': require('../assets/techlogos/react.png'),
     'price': '3',
     'time': '10-15 minutes',
@@ -38,7 +47,7 @@ const technologies = [
   },
   {
     'name': 'Redux',
-    'description': 'Learn how incorporating this simple yet powerful library can help you manage you complex React.js applications.',
+    'description': 'Learn how incorporating this simple yet powerful library can help you manage your complex React.js applications.',
     'image': require('../assets/techlogos/redux.png'),
     'price': '4',
     'time': '5-10 minutes',
@@ -47,7 +56,7 @@ const technologies = [
   },
   {
     'name':'Node.js',
-    'description': 'Get an introduction to this powerful and lightweight javascript runtime environment for the server.',
+    'description': 'Get an introduction to this powerful and lightweight JavaScript runtime environment for the server.',
     'image': require('../assets/techlogos/nodejs.png'),
     'price': '3',
     'time': '10-15 minutes',
@@ -81,6 +90,15 @@ const technologies = [
     'mentor':'Kanishk Vashisht',
     'contact': 'kv2295@columbia.edu'
   },
+  {
+    'name': 'Blockchain',
+    'description': `Heard of the buzzword but don't know what it means? Get a primer on this revolutionary technology.`,
+    'price': '4',
+    'time': '5-10 minutes',
+    'image': require('../assets/techlogos/blockchain.jpeg'),
+    'mentor':'Kanishk Vashisht',
+    'contact': 'kv2295@columbia.edu'
+  }
 
 ]
 
